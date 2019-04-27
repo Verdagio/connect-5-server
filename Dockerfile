@@ -14,5 +14,5 @@ COPY . .
 # bind application to port 9000
 EXPOSE 9000
 
-CMD [ "npm", "run", "prod" ]
+CMD [ "npm", "start" ]
 
